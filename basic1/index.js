@@ -1,6 +1,3 @@
-var moment = require('moment');
-
-console.log(moment().format());
 
 var day = new Date();
 var dayNum = day.getDay();              //current day number
