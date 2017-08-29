@@ -2,9 +2,9 @@ function integer(x) {
 
 
   var srt =  x.toString().split("").reverse().join("");
-  console.log("working")
+
   return srt;
 
 
 }
-integer(223456);
+console.log(integer(223456));
